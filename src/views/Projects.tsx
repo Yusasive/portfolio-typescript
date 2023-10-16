@@ -1,32 +1,22 @@
 // react
 import { useState } from "react";
-
-// assets
 import projectsPageImg from "../assets/projects-page.svg";
-
-// components
 import { Button, Card, Reveal } from "../components";
-
-// data
 import { projects } from "../data";
-
-// framer-motion
 import { motion } from "framer-motion";
-
-// utils
 import { fadeIn } from "../utils/variants";
 import { transition } from "../utils/transition";
 
-type Category = "uiUx" | "web";
+type Category = "works" | "volunteer";
 
 const Projects = () => {
-  const [activeCategory, setActiveCategory] = useState<Category>("uiUx");
+  const [activeCategory, setActiveCategory] = useState<Category>("works");
 
   const filteredProjects = () => {
-    if (activeCategory === "uiUx") {
-      return projects.filter((item) => item.category === "Works");
+    if (activeCategory === "works") {
+      return projects.filter((item) => item.category === "works");
     } else {
-      return projects.filter((item) => item.category === "volunter");
+      return projects.filter((item) => item.category === "volunteer");
     }
   };
 
@@ -61,16 +51,16 @@ const Projects = () => {
             className="flex items-center gap-4 justify-center xl:justify-start flex-col sm:flex-row"
           >
             <Button
-              secondary={activeCategory === "uiUx" ? true : false}
-              onClick={() => setActiveCategory("uiUx")}
+              secondary={activeCategory === "works" ? true : false}
+              onClick={() => setActiveCategory("works")}
             >
-              UI/UX
+              Projects
             </Button>
             <Button
-              secondary={activeCategory === "web" ? true : false}
-              onClick={() => setActiveCategory("web")}
+              secondary={activeCategory === "volunteer" ? true : false}
+              onClick={() => setActiveCategory("volunteer")}
             >
-              Web design
+              Volunteer
             </Button>
           </motion.div>
 

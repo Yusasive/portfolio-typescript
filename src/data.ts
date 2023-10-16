@@ -1,9 +1,9 @@
-import uiUxOne from "./assets/ui-ux-project-one.svg";
-import uiUxTwo from "./assets/ui-ux-project-two.svg";
-import uiUxThree from "./assets/ui-ux-project-three.svg";
-import webOne from "./assets/web-project-one.jpeg";
-import webTwo from "./assets/web-project-two.jpeg";
-import webThree from "./assets/web-project-three.jpeg";
+import worksOne from "./assets/works1.png";
+import worksTwo from "./assets/works2.png";
+import worksThree from "./assets/works3.jpg";
+import volunteerOne from "./assets/volunteer1.png";
+import volunteerTwo from "./assets/volunteer2.png";
+import volunteerThree from "./assets/volunteer3.jpg";
 
 interface Project {
   id: number;
@@ -15,38 +15,38 @@ interface Project {
 export const projects: Project[] = [
   {
     id: 0,
-    category: "Works",
-    img: uiUxOne,
-    title: "UI/UX Web Template",
+    category: "works",
+    img: worksOne,
+    title: "Rumoney Web Template",
   },
   {
     id: 1,
-    category: "Works",
-    img: uiUxTwo,
-    title: "UI/UX Tablet Template",
+    category: "works",
+    img: worksTwo,
+    title: "Zonoxis NFTs minting Website",
   },
   {
     id: 2,
-    category: "Works",
-    img: uiUxThree,
-    title: "Solar System App Design",
+    category: "works",
+    img: worksThree,
+    title: "MERNStack eccomerce website",
   },
   {
     id: 3,
     category: "volunteer",
-    img: webOne,
-    title: "Interior Design Website",
+    img: volunteerOne,
+    title: "Rumoney Blogsite",
   },
   {
     id: 4,
     category: "volunteer",
-    img: webTwo,
-    title: "Agency Landing Page",
+    img: volunteerTwo,
+    title: "Paystack payment gateway",
   },
   {
     id: 5,
     category: "volunteer",
-    img: webThree,
-    title: "Crypto Landing Page",
+    img: volunteerThree,
+    title: "Agora chat application",
   },
 ];
