@@ -2,9 +2,9 @@
 import aboutPageImg from "../assets/about-me-page.svg";
 import aboutIllustration from "../assets/about-illustration.svg";
 import facebookIcon from "../assets/facebook-icon.svg";
-import instagramIcon from "../assets/instagram-icon.svg";
+import linkedinIcon from "../assets/linkedin.svg";
 import twitterIcon from "../assets/twitter-icon.svg";
-import youtubeIcon from "../assets/youtube-icon.svg";
+import githubIcon from "../assets/github.svg";
 
 import { SocialMediaIcon, Reveal } from "../components";
 import { motion } from "framer-motion";
@@ -54,9 +54,9 @@ const About = () => {
             className="flex items-center justify-center xl:justify-start gap-6"
           >
           <SocialMediaIcon imgSrc={facebookIcon} title="Facebook" />
-          <SocialMediaIcon imgSrc={instagramIcon} title="Instagram" /> 
+          <SocialMediaIcon imgSrc={linkedinIcon} title="LinkedIn" /> 
           <SocialMediaIcon imgSrc={twitterIcon} title="Twitter" />
-          <SocialMediaIcon imgSrc={youtubeIcon} title="YouTube" /> 
+          <SocialMediaIcon imgSrc={githubIcon} title="GitHub" /> 
           </motion.div>
         </div>
 
