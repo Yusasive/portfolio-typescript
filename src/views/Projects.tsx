@@ -1,4 +1,3 @@
-// react
 import { useState } from "react";
 import projectsPageImg from "../assets/projects-page.svg";
 import { Button, Card, Reveal } from "../components";

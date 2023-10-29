@@ -1,7 +1,4 @@
-// mui
 import { Tooltip } from "@mui/material";
-
-// react
 import { FC } from "react";
 
 interface SocialMediaIconProps {

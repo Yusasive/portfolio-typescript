@@ -1,4 +1,3 @@
-// assets
 import aboutPageImg from "../assets/about-me-page.svg";
 import aboutIllustration from "../assets/about-illustration.svg";
 import facebookIcon from "../assets/facebook-icon.svg";

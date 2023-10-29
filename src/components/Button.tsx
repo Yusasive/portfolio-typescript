@@ -1,4 +1,3 @@
-// react
 import { FC, ReactNode } from "react";
 
 interface ButtonProps {

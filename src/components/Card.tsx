@@ -1,4 +1,3 @@
-// react
 import { FC } from "react";
 
 interface CardProps {
