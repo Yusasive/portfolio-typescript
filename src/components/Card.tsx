@@ -14,7 +14,7 @@ const Card: FC<CardProps> = ({ imgSrc, title }) => {
     >
       <img
         src={imgSrc}
-        alt=""
+        alt="Projects"
         className="transition-all duration-700 backdrop-blur-0 group-hover:scale-105 ease-in-out max-h-[220px]"
       />
 

@@ -66,7 +66,7 @@ const Hero = () => {
           whileInView="visible"
           viewport={{ once: false }}
           src={homePageIllustation}
-          alt=""
+          alt="HeroSection "
           className="max-w-full sm:max-w-[401px]"
         />
       </div>
