@@ -1,6 +1,7 @@
 {
   "short_name": "yusasive portfolio",
   "name": "yusasive portfolio",
+  "description": "A Portfolio Project create with React Typescript, Material UI and Tailwind",
   "icons": [
     {
       "src": "favicon.ico",
