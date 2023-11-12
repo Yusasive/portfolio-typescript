@@ -55,7 +55,7 @@ const Hero = () => {
             className="my-12 flex flex-col sm:flex-row items-center gap-6 justify-center xl:justify-start"
           >
             <a href="https://www.linkedin.com/in/yuusuf-abdullahi-temidayo-yusasive/"><Button secondary>Hire me</Button></a>
-           <a href="../../assets/Yusufabdullahi.cv.pdf" download> <Button icon={downloadIcon}>Download CV</Button></a>
+           <a href="/" download> <Button icon={downloadIcon}>Download CV</Button></a>
           </motion.div>
         </div>
 
