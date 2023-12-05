@@ -49,4 +49,10 @@ export const projects: Project[] = [
     img: volunteerThree,
     title: "Agora chat application",
   },
+  {
+    id: 6,
+    category: "volunteer",
+    img: volunteerThree,
+    title: "Agora chat application",
+  },
 ];
