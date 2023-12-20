@@ -4,7 +4,6 @@ import facebookIcon from "../assets/facebook-icon.svg";
 import linkedinIcon from "../assets/linkedin.svg";
 import twitterIcon from "../assets/twitter-icon.svg";
 import githubIcon from "../assets/github.svg";
-
 import { SocialMediaIcon, Reveal } from "../components";
 import { motion } from "framer-motion";
 import { fadeIn, scale } from "../utils/variants";
