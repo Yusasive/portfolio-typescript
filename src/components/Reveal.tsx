@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { transition } from "../utils/transition";
 import { FC, ReactNode } from "react";
 import { reveal } from "../utils/variants";
-
 interface RevealProps {
   children: ReactNode;
 }
