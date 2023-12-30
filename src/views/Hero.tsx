@@ -7,7 +7,21 @@ import { motion } from "framer-motion";
 import { transition } from "../utils/transition";
 import { fadeIn, scale } from "../utils/variants";
 
-const Hero = () => {
+
+  const Hero: React.FC = () => {
+    const handleDownload = () => {
+      // Use public directory to serve static assets
+      const cvFileUrl = process.env.PUBLIC_URL + '/yusuf-abdullahi.pdf'; // Replace with the actual file name
+    
+      // Trigger the download using JavaScript
+      const link = document.createElement('a');
+      link.href = cvFileUrl;
+      link.download = 'yusuf-abdullahi.pdf'; // Specify the desired file name
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
+
   return (
     <div
       id="home"
@@ -17,12 +31,10 @@ const Hero = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-      }}
-    >
+      }}>
       <div
         className="max-w-screen-2xl flex flex-col 
-          xl:flex-row xl:justify-between items-center xl:items-start gap-12 w-full py-16 px-12"
-      >
+          xl:flex-row xl:justify-between items-center xl:items-start gap-12 w-full py-16 px-12">
         <div className="w-full xl:w-fit">
           <motion.h1
             variants={fadeIn("down")}
@@ -31,8 +43,7 @@ const Hero = () => {
             whileInView="visible"
             viewport={{ once: false }}
             className="w-full xl:w-fit text-center xl:text-start text-4xl sm:text-6xl lg:text-8xl
-              font-bolt text-textPrimary uppercase"
-          >
+              font-bolt text-textPrimary uppercase">
             FrontEnd
             <br />
             <span className="text-secondary">
@@ -52,10 +63,13 @@ const Hero = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false }}
-            className="my-12 flex flex-col sm:flex-row items-center gap-6 justify-center xl:justify-start"
-          >
-            <a href="https://www.linkedin.com/in/yuusuf-abdullahi-temidayo-yusasive/"><Button secondary>Hire me</Button></a>
-           <a href="/" download> <Button icon={downloadIcon}>Download CV</Button></a>
+            className="my-12 flex flex-col sm:flex-row items-center gap-6 justify-center xl:justify-start">
+            <a href="https://www.linkedin.com/in/yuusuf-abdullahi-temidayo-yusasive/">
+              <Button secondary>Hire me</Button>
+            </a>
+            <Button icon={downloadIcon} onClick={handleDownload}>
+              Download CV
+            </Button>
           </motion.div>
         </div>
 
