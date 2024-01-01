@@ -3,14 +3,14 @@ import HomeIcon from "@mui/icons-material/Home";
 import PersonIcon from "@mui/icons-material/Person";
 import AppsIcon from "@mui/icons-material/Apps";
 import MailIcon from "@mui/icons-material/Mail";
+import ArticleIcon from "@mui/icons-material/Article";
 import { Link } from "react-scroll";
 
 const Menu = () => {
   return (
     <div
       className="fixed bottom-0 sm:bottom-12 w-full sm:w-fit left-1/2 -translate-x-1/2 bg-accent
-  rounded-t-xl sm:rounded-full py-3 px-6 flex items-center justify-around sm:justify-center gap-12 z-30"
-    >
+  rounded-t-xl sm:rounded-full py-3 px-6 flex items-center justify-around sm:justify-center gap-12 z-30">
       <Link to="home" smooth>
         <Tooltip title="Home" placement="top" arrow>
           <IconButton className="group">
@@ -39,6 +39,13 @@ const Menu = () => {
         <Tooltip title="Contact" placement="top" arrow>
           <IconButton className="group">
             <MailIcon className="text-white group-hover:text-secondary" />
+          </IconButton>
+        </Tooltip>
+      </Link>
+      <Link to="blog" smooth>
+        <Tooltip title="Blog" placement="top" arrow>
+          <IconButton className="group">
+            <ArticleIcon className="text-white group-hover:text-secondary" />
           </IconButton>
         </Tooltip>
       </Link>
