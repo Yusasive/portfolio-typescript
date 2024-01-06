@@ -47,6 +47,91 @@ const Blog = () => {
         title: "Building Animated React Components",
         content: "Learn how to create animated React components.",
       },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
+      {
+        id: 2,
+        title: "Building Animated React Components",
+        content: "Learn how to create animated React components.",
+      },
     // Add more blog posts as needed
   ];
 
