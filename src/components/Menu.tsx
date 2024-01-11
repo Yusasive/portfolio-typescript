@@ -42,13 +42,13 @@ const Menu = () => {
           </IconButton>
         </Tooltip>
       </Link>
-      <Link to="blog" smooth>
+     {/* <Link to="blog" smooth>
         <Tooltip title="Blog" placement="top" arrow>
           <IconButton className="group">
             <ArticleIcon className="text-white group-hover:text-secondary" />
           </IconButton>
         </Tooltip>
-      </Link>
+      </Link> */}
     </div>
   );
 };
